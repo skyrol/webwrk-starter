@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+https://gracious-lumiere-85b212.netlify.com/* https://www.webwrk.xyz/:splat 301!
