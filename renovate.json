@@ -10,7 +10,7 @@
   "automerge": true,
   "major": {
     "automerge": false
-  }
+  },
   "packageRules": [
     {
       "packageNames": ["netlify-cms"],
