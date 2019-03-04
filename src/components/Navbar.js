@@ -31,7 +31,7 @@ const Navbar = class extends React.Component {
   render() {
     return (
       <nav
-        className="navbar is-transparent"
+        className="navbar"
         role="navigation"
         aria-label="main-navigation"
       >
@@ -77,7 +77,7 @@ const Navbar = class extends React.Component {
                 </span>
               </a>
               <a className="navbar-item" href="https://bulma.io">
-                <span className="icon">
+                <span className="">
                   <img src="https://bulma.io/images/made-with-bulma--semiwhite.png" alt="Made with Bulma" width="128" height="24" /> 
                 </span>  
               </a>
