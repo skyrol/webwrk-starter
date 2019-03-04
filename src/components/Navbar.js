@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import github from '../img/github-icon.svg'
+import gatsby from '../img/gatsby.svg'
 import logo from '../img/logo.svg'
 
 const Navbar = class extends React.Component {
@@ -68,6 +69,11 @@ const Navbar = class extends React.Component {
               <a className="navbar-item" href="https://github.com/skyrol/webwrk-starter" target="_blank" rel="noopener noreferrer">
                 <span className="icon">
                   <img src={github} alt="Github" />
+                </span>
+              </a>
+              <a className="navbar-item" href="https://github.com/gatsbyjs/gatsby" target="_blank" rel="noopener noreferrer">
+                <span className="icon">
+                  <img src={gatsby} alt="Gatsby" />
                 </span>
               </a>
               <a className="navbar-item" href="https://bulma.io">
