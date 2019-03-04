@@ -37,7 +37,7 @@ const Navbar = class extends React.Component {
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
+              <img src={logo} alt="webwrk" style={{ width: '90px' }} />
             </Link>
             {/* Hamburger menu */}
             <div className="navbar-burger burger" data-target="navMenu">
@@ -65,15 +65,15 @@ const Navbar = class extends React.Component {
               </Link>
             </div>
             <div className="navbar-end has-text-centered">
-              <a
-                className="navbar-item"
-                href="https://github.com/skyrol/webwrk-starter"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a className="navbar-item" href="https://github.com/skyrol/webwrk-starter" target="_blank" rel="noopener noreferrer">
                 <span className="icon">
                   <img src={github} alt="Github" />
                 </span>
+              </a>
+              <a className="navbar-item" href="https://bulma.io">
+                <span className="icon">
+                  <img src="https://bulma.io/images/made-with-bulma--semiwhite.png" alt="Made with Bulma" width="128" height="24" /> 
+                </span>  
               </a>
             </div>
           </div>
