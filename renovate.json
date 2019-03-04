@@ -7,6 +7,10 @@
     "enabled": true,
     "extends": "schedule:weekly"
   },
+  "automerge": true,
+  "major": {
+    "automerge": false
+  },
   "packageRules": [
     {
       "packageNames": ["netlify-cms"],
